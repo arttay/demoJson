@@ -1,11 +1,27 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "art taylor"
-  }
+    "jobs": [{
+        "job_name": "Arts test table",
+        "state": "Finished",
+        "uuid": "1234-567-789",
+        "cardId": "123456",
+        "download_link": "https://www.greenfield.target.com/1234-567-789",
+        "job_info": {
+            "initiated": "10-31-19",
+            "retention": "14 days",
+            "time_period": "10-10-19/10-15-19",
+            "filters": ["Store Name"]
+        }
+    }, {
+        "job_name": "Arts test line graph",
+        "state": "Finished",
+        "uuid": "1234-567-789",
+        "cardId": "987654",
+        "download_link": "https://www.greenfield.target.com/1234-567-789",
+        "job_info": {
+            "initiated": "10-31-19",
+            "retention": "14 days",
+            "time_period": "10-10-19/10-15-19",
+            "filters": ["Store Name"]
+        }
+    }]
 }
